@@ -14,4 +14,4 @@ def findByORC(wordToFix, lexicon):
     print levDist
     levPerPossible = min(zip(sameORC, levDist), key=lambda x: x[1])
     print levPerPossible
-    return wordToFix[:4] + levPerPossible[0][0] + 'CC' + levPerPossible[0][1:] + wordToFix[11:]
+    return wordToFix[:4] + levPerPossible[0][0] + 'TT' + levPerPossible[0][1:] + wordToFix[11:]
